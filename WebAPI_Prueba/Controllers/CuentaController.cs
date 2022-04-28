@@ -10,7 +10,7 @@ namespace WebAPI_Prueba.Controllers
     public class CuentaController : ControllerBase
     {
         private ModelContext _context;
-
+        //Constructor para crear un contexto del controlador de cuenta
         public CuentaController(ModelContext context)
         {
             _context = context;
